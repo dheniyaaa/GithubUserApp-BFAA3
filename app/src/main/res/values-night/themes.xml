@@ -1,0 +1,43 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Submission3" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/black_100</item>
+        <item name="colorPrimaryVariant">?attr/background_color</item>
+        <item name="colorOnPrimary">@color/grey_500</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/greyText</item>
+        <item name="colorSecondaryVariant">@color/white</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+
+        <item name="selector_background_color">@color/white</item>
+        <item name="background_pure_color">@color/black_100</item>
+        <item name="background_color">@color/black</item>
+        <item name="button_color">@color/white</item>
+        <item name="text_color">@color/white_300</item>
+        <item name="color_nav">@color/grey_500</item>
+        <item name="color_black_white">@color/black</item>
+        <item name="shadow_color">@color/grey_500</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="SearchViewStyle" parent="Widget.AppCompat.SearchView">
+        <item name="android:textColor">?attr/text_color</item>
+        <item name="android:editTextColor">?attr/text_color</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:drawablePadding">15dp</item>
+        <item name="android:textColorHint">@color/grey_300</item>
+    </style>
+
+
+    <style name="TabLayoutStyle" parent="Widget.Design.TabLayout">
+        <item name="background">@drawable/shape_retangle_search</item>
+        <item name="singleLine">false</item>
+        <item name="tabPaddingEnd">15dp</item>
+    </style>
+</resources>

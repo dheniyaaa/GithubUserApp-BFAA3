@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.submission3">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".injection.Injection"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_splash"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_splash"
+        android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
+        android:theme="@style/Theme.Submission3"
+        tools:targetApi="n">
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.detail.DetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+
+        </activity>
+    </application>
+
+</manifest>

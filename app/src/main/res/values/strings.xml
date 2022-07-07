@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Github</string>
+    <string name="welcome_to_github">Welcome to GitHub</string>
+    <string name="intro_tab_landingpage">Make your project here . . .</string>
+    <string name="intro_home">Millions of developers and companies build, ship, and maintain their software on GitHub the largest and most advanced development platform in the world.</string>
+    <string name="intro_search">Find the other repository</string>
+    <string name="name_user">Alyesa Kelana Sabira</string>
+    <string name="name_company">Tokopedia</string>
+    <string name="name_tab_favorite">FAVORITE</string>
+    <string name="name_tab_setting">setting</string>
+    <string name="username">alesyakia</string>
+    <string name="company">Tokopedia</string>
+    <string name="repositories">repositories</string>
+    <string name="value_repo">68</string>
+    <string name="followers">followers</string>
+    <string name="following">following</string>
+    <string name="value_following">72</string>
+    <string name="value_followers">44</string>
+    <string name="add_favorite">add to favorite</string>
+    <string name="remove_favorite">delete from favorite</string>
+    <string name="location">Indonesia</string>
+    <string name="no_favorite">Tidak ada daftar favorite</string>
+    <string name="night_mode">Dark Mode</string>
+    <string name="light_mode">Light Mode</string>
+    <string name="home">home</string>
+    <string name="search">search</string>
+    <string name="favorite">favorite</string>
+    <string name="setting">setting</string>
+    <string name="user_not_found">User not found...</string>
+    <string name="tab_followers">Followers</string>
+    <string name="tab_following">Following</string>
+    <string name="img">img</string>
+</resources>
